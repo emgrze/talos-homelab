@@ -1,6 +1,6 @@
 # Talos / Kubernetes
-controlplane.yaml
-worker.yaml
+/controlplane.yaml
+/worker.yaml
 secrets.yaml
 talosconfig
 kubeconfig
