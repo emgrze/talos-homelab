@@ -1,0 +1,12 @@
+# Talos
+secrets.yaml
+talosconfig
+kubeconfig
+*.bak
+
+# Kubernetes
+.kube/
+kubeconfig
+
+# Inne
+.DS_Store
