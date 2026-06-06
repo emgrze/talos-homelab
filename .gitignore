@@ -1,12 +1,16 @@
-# Talos
+# Talos / Kubernetes
 secrets.yaml
 talosconfig
 kubeconfig
-*.bak
+*.sha256
+kubectl
+kubectl.sha256*
 
-# Kubernetes
-.kube/
-kubeconfig
-
-# Inne
+# Tymczasowe pliki
 .DS_Store
+*.bak
+*.tmp
+
+# Binaria
+/bin/
+/dist/
