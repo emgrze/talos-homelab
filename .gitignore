@@ -1,7 +1,10 @@
 # Talos / Kubernetes
+controlplane.yaml
+worker.yaml
 secrets.yaml
 talosconfig
 kubeconfig
+kubeconfig*
 *.sha256
 kubectl
 kubectl.sha256*
