@@ -4,16 +4,16 @@ My private declarative environment powered by **Talos Linux** and **Kubernetes**
 
 ## 🛠️ Tech Stack
 
-| Component | Tool / Technology |
-| **OS** | Talos Linux |
-| **Orchestration** | Kubernetes |
+| Component | Tool / Technology |  
+| **OS** | Talos Linux |  
+| **Orchestration** | Kubernetes |  
 
 ## 🛠️ Hardware
 
-| **CPU** | AMD Ryzen H255 |
-| **RAM** | 16GB DDR5 |
-| **iGPU** | Radeon 780M |
-| **LAN** | 2.5G |
+| **CPU** | AMD Ryzen H255 |  
+| **RAM** | 16GB DDR5 |  
+| **iGPU** | Radeon 780M |  
+| **LAN** | 2.5G |  
 
 ### Prerequisites
 - Static IP for every node.
