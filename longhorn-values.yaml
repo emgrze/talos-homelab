@@ -1,0 +1,23 @@
+defaultSettings:
+  defaultReplicaCount: 1
+  defaultDataPath: /var/lib/longhorn
+  storageOverProvisioningPercentage: 100
+  storageMinimalAvailablePercentage: 10
+
+persistence:
+  defaultClass: true
+  defaultClassReplicaCount: 1
+  reclaimPolicy: Retain
+
+# Kluczowe dla Talos + single node
+privateRegistry:
+  registrySecret: ""
+
+# Tolerations i scheduling
+tolerations:
+  - operator: "Exists"
+
+nodeSelector: {}
+
+# Przyspieszenie startu
+enablePSP: false
